@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignupComponent } from './signup/signup.component';
+import { NewheaderComponent } from './newheader/newheader.component';
 
 const routes: Routes = [
     { path: '', pathMatch: 'full', component: DashboardComponent },
@@ -28,7 +29,8 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
-    SignupComponent
+    SignupComponent,
+    NewheaderComponent
   ],
   imports: [
     BrowserModule, 

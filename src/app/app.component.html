@@ -1,4 +1,6 @@
-<app-header></app-header>
+
+<app-header *ngIf="!showNewHeader()"></app-header>
+      <app-newheader *ngIf="showNewHeader()" ></app-newheader>
 
   <router-outlet></router-outlet>
 
